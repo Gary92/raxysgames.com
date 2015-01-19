@@ -1,0 +1,115 @@
+@charset "UTF-8";
+
+/* ==== BANNER ==== */
+#banner {
+	height: 500px;
+}
+
+/* ==== INTRO ==== */
+#intro > p {
+	text-align: justify;
+
+	margin: 0px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+}
+
+#intro > p:first-child {
+	padding-top: 20px;
+}
+
+/* ==== INFO ==== */
+#info #video {
+	width: 560px;
+	padding-left: 20px;
+	padding-right: 10px;
+	padding-top: 8px;
+	padding-bottom: 8px;
+}
+
+#info #features {
+	width: 340px;
+	font-size: 150%;
+	text-align: justify;
+	
+	vertical-align: top;
+	padding-left: 10px;
+	padding-right: 20px;
+	padding-top: 8px;
+	padding-bottom: 8px;
+}
+
+#info #features ul {
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#info #features ul li {
+	margin-bottom: 4px;
+}
+
+/* ==== GALLERY ==== */
+#gallery {
+	padding-top: 24px;
+}
+
+#gallery div {
+	width: 864px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#gallery a:link {
+	text-decoration: none;
+
+	margin-left: 8px;
+	margin-right: 8px;
+}
+
+/* ==== PLATFORMS ==== */
+#platforms {
+	padding-top: 32px;
+	text-align: center;
+	font-size: 150%;
+}
+
+#platforms > p {
+	margin: 0px;
+	padding-left: 16px;
+	padding-right: 16px;
+	padding-bottom: 16px;
+}
+
+/* ==== STORES ==== */
+#stores {
+	padding-top: 12px;
+}
+
+#stores div {
+	width: 208px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#stores a:link {
+	text-decoration: none;
+
+	margin-left: 8px;
+	margin-right: 8px;
+}
+
+/* ==== EPILOGUE ==== */
+#epilogue > p {
+	text-align: justify;
+
+	margin: 0px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+}
+
+#epilogue > p:first-child {
+	padding-top: 20px;
+}
