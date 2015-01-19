@@ -27,6 +27,10 @@ body a:link, body a:visited {
 	color: aqua;
 }
 
+b {
+	color: orange;
+}
+
 .halign {
 	display: inline-block;
 	margin-left: auto;
