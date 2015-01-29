@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+/* ==== CONDITIONS ==== */
+#conditions > h2 {
+	text-align: justify;
+
+	margin: 0px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 30px;
+	padding-bottom: 10px;
+}
+
+#conditions > h2:first-child {
+	padding-top: 20px;
+}
+
+#conditions > p {
+	text-align: justify;
+
+	margin: 0px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 0px;
+	padding-bottom: 16px;
+}
