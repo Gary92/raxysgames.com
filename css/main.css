@@ -1,18 +1,17 @@
 @charset "UTF-8";
 
 body {
+    width: 1024px;
     background-color: #333333;
     margin-top: 0px;
     margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 body > .main {
 	background-color: #606060;
-	width: 1024px;
-	position: relative;
-	left: 50%;
-	margin-left: -512px;
-
+	
 	font-family: 'Nunito', sans-serif;
 	color: white;
 }
@@ -22,7 +21,7 @@ body > div {
 	padding: 0px;
 }
 
-body a:link, body a:visited {
+a:link, a:visited {
 	text-decoration: none;
 	color: aqua;
 }
@@ -35,11 +34,6 @@ b {
 	display: inline-block;
 	margin-left: auto;
 	margin-right: auto;
-}
-
-.demi {
-	width: 500px;
-	display: inline-block;
 }
 
 /* ==== NAVBAR ==== */

@@ -10,53 +10,53 @@
 	text-align: justify;
 
 	margin: 0px;
-	padding-left: 20px;
-	padding-right: 20px;
+	padding-left: 48px;
+	padding-right: 48px;
+	padding-top: 48px;
+	padding-bottom: 48px;
+}
+
+/* ==== FEATURES ==== */
+#features > h3 {
+	text-align: justify;
+
+	margin: 0px;
+	padding-left: 48px;
+	padding-right: 48px;
 	padding-bottom: 20px;
 }
 
-#intro > p:first-child {
-	padding-top: 20px;
-}
-
-/* ==== INFO ==== */
-#info #video {
-	width: 560px;
-	padding-left: 20px;
-	padding-right: 10px;
-	padding-top: 8px;
-	padding-bottom: 8px;
-}
-
-#info #features {
-	width: 340px;
-	font-size: 150%;
+#features ul {
 	text-align: justify;
-	
-	vertical-align: top;
-	padding-left: 10px;
-	padding-right: 20px;
-	padding-top: 8px;
-	padding-bottom: 8px;
+
+	margin: 0px;
+	padding-left: 72px;
+	padding-right: 48px;
+	padding-bottom: 48px;
 }
 
-#info #features ul {
-	list-style-type: none;
-    margin: 0;
-    padding: 0;
+#features ul li {
+	text-align: justify;
+
+	font-size: large;
+	padding-bottom: 4px;
 }
 
-#info #features ul li {
-	margin-bottom: 4px;
+/* ==== TRAILER ==== */
+#trailer {
+	text-align: center;
+}
+
+#trailer > #video {
+	padding-bottom: 48px;
 }
 
 /* ==== GALLERY ==== */
-#gallery {
-	padding-top: 24px;
-}
+#gallery > div {
+	width: 928px;
+	text-align: center;
 
-#gallery div {
-	width: 864px;
+	padding-bottom: 48px;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -68,9 +68,18 @@
 	margin-right: 8px;
 }
 
+/* ==== VERSIONS ==== */
+#versions > p {
+	text-align: justify;
+
+	margin: 0px;
+	padding-left: 48px;
+	padding-right: 48px;
+	padding-bottom: 48px;
+}
+
 /* ==== PLATFORMS ==== */
 #platforms {
-	padding-top: 32px;
 	text-align: center;
 	font-size: 150%;
 }
@@ -79,16 +88,16 @@
 	margin: 0px;
 	padding-left: 16px;
 	padding-right: 16px;
-	padding-bottom: 16px;
+	padding-bottom: 24px;
 }
 
 /* ==== STORES ==== */
 #stores {
-	padding-top: 12px;
+	text-align: center;
+	padding-bottom: 32px;
 }
 
 #stores div {
-	width: 208px;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -105,11 +114,7 @@
 	text-align: justify;
 
 	margin: 0px;
-	padding-left: 20px;
-	padding-right: 20px;
-	padding-bottom: 20px;
-}
-
-#epilogue > p:first-child {
-	padding-top: 20px;
+	padding-left: 48px;
+	padding-right: 48px;
+	padding-bottom: 48px;
 }
