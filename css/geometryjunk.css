@@ -68,6 +68,10 @@
 	margin-right: 8px;
 }
 
+#gallery img {
+	margin-bottom: 16px;
+}
+
 /* ==== VERSIONS ==== */
 #versions > p {
 	text-align: justify;
